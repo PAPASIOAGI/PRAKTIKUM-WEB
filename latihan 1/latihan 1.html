@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Sederhana</title>
+    <title>TOKO BUKU PAK AMBA</title>
     <!-- Tambahkan Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
     <style>
-        /* Tambahan CSS untuk mempercantik tampilan */
+        /* Tambahan CSS */
         .hero {
             background: url('hero-image.jpg') no-repeat center center/cover;
             height: 400px;
@@ -25,17 +26,15 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="#">MyWebsite</a>
-            <a class="navbar-brand" href="#"><i class="bi bi-house-door"></i> MyWebsite</a>
+            <a class="navbar-brand" href="#"><i class="bi bi-book"></i></i> BUKUKITA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Category</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -43,45 +42,64 @@
 
     <!-- Hero Section -->
     <div class="hero text-center">
-        <h1>Selamat Datang di Website kami ygy</h1>
+        <h1>BUKUKITA - TOKO BUKU ONLINE TERPERCAYA</h1>
     </div>
 
     <!-- Layanan -->
+    <ol>
+        <CENTER><H3>KATEGORI BUKU</H3></CENTER>
+        
+        <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <li><i class="bi bi-book-half"><a>NOVEL</a></i></li>
+              </div>
+
+              <div class="col">
+                <li><i class="bi bi-book-half"><a>KOMIK</a></i></li>
+              </div>
+
+              <div class="col">
+                <li><i class="bi bi-book-half"><a>BUKU TENTANG TEKNOLOGI</a></i></li>
+              </div>
+            </div>
+          </div>
+    </ol>
+
     <section class="container my-5">
         <div class="row text-center">
             <div class="col-md-4">
                 <div class="card p-3">
-                    <h3>Desain Modern</h3>
-                    <p>Menggunakan desain responsif yang menarik ges.</p>
+                    <h3>NOVEL</h3>
+                    <H4>Laskar pelangi</H4>
+                    <IMG SRC="051024600_1701871884-Novel_3.jpg">
+                    <H5>novel laskar pelangi yang diciptakan oleh andrea hirata</H5>
+                    <button type="button" class="btn btn-primary btn-sm">BELI SEKARANG</button>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card p-3">
-                    <h3>fast performance</h3>
-                    <p>Dibangun dengan teknologi terbaru.</p>
+                    <h3>KOMIK</h3>
+                    <H4>METAMORPHOSIS</H4>
+                    <IMG SRC="17703.jpg">
+                    <h5>komik tentang mahasiswi jepang</h5>
+                    <button type="button" class="btn btn-primary btn-sm">BELI SEKARANG</button>
                 </div>
             </div>
+
             <div class="col-md-4">
                 <div class="card p-3">
-                    <h3>Memiliki Supportsystem 24/7</h3>
-                    <p>Kami selalu siap membantu Anda kapan saja.</p>
+                    <h3>BUKU TEKNOLOGI</h3>
+                    <H4>TIK</H4>
+                    <img src="Teknologi-Informasi-dan-Komunikasi-Hamdan-Husein-Batubara-M.Pd-depan-scaled.jpg">
+                    <H5>Buku pelajaran TIK</H5>
+                    <button type="button" class="btn btn-primary btn-sm">BELI SEKARANG</button>
                 </div>
             </div>
+
         </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="text-center my-5">
-        <h2>Ingin tahu lebih lanjut?</h2>
-        <a href="#" class="btn btn-primary btn-lg">Hubungi Kami</a>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center bg-dark text-white py-3">
-        <p>&copy; 2025 MyWebsite. All Rights Reserved.</p>
-    </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
